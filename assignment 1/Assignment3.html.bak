@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> my page</title>
+<style>
+nav{
+
+display:flex;
+flex-direction:row;
+background-color:#00bfff;
+align-items:center;
+height:120px;
+}
+nav ul{
+padding:0px;
+background-color:#00bfff;
+display:flex;
+align-items:center;
+color:#000000;
+list-style-type:none;
+
+}
+#right{
+flex-grow:1;
+
+}
+nav ul li{
+
+list-style-type:none;
+background-color:#00bfff;
+padding-left:5px;
+font-family:calibri;
+font-size:20px;
+}
+nav ul li a{
+text-decoration:none;
+background-color:#00bfff;
+color:black;
+
+}
+nav ul li a:hover{
+background-color:#ff0000;
+}
+#left{
+
+float:left;
+flex-grow:1;
+}
+#logo{
+width:50%;
+height:100px;
+
+}
+
+#box1{
+border:20px solid red;
+max-width:100%;
+height:800px;
+background-color:#b3ecff;
+text-align:center;
+}
+span{
+text-decoration: red dotted underline;
+font-weight:bold;
+}
+#first{
+	  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+text-transform:uppercase;
+}
+img{
+width:300px;
+border-radius:50%;
+}
+
+#linkcolor{
+text-decoration:none;
+background-color:yellow;
+color:pink;
+}
+#linkcolor:visited{
+		text-decoration:none;
+		background-color:grey;
+		color:green;
+		padding:5px;
+		border-radius:10px;
+
+}
+#linkcolor:hover{
+		text-decoration:none;
+		background-color:yellow;
+		color:red;
+		padding:5px;
+		border-radius:10px;
+
+}
+#linkcolor:active{
+		text-decoration:none;
+		background-color:brown;
+		color:blue;
+		padding:5px;
+		border-radius:10px;
+}
+
+body{
+text-align:center;
+margin:0;
+
+}
+
+#box2{
+	text-decoration:none;
+	border:20px solid brown;
+	max-width:100%;
+	height:500px;
+	background-color:#ffff00;
+	text-align:left;
+
+
+}
+ul{
+padding:15px;
+list-style:square;
+background-color:pink;
+}
+ol{
+padding:15px;
+list-style:lower-alpha;
+background-color:blue;
+}
+ul li{
+background-color:white;
+margin:2px;
+}
+ol li{
+background-color:white;
+margin:2px;
+}
+#linklist{
+list-style:none;
+text-decoration:none;
+background-color:green;
+color:white;
+}
+#linklist:visited{
+		text-decoration:none;
+		background-color:blue;
+		color:red;
+		padding:5px;
+		border-radius:10px;
+
+}
+#linklist:hover{
+		text-decoration:none;
+		background-color:white;
+		color:green;
+		padding:5px;
+		border-radius:10px;
+
+}
+#linklist:active{
+		text-decoration:none;
+		background-color:yellow;
+		color:black;
+		padding:5px;
+		border-radius:10px;
+}
+#box3{
+max-width:100%;
+height:500px;
+background-color:#00ff80;
+text-align:center;
+
+}
+#table1{
+ border-collapse:collapse;
+   width:50%
+}
+ #table1 tr:nth-child(even){
+background-color:grey;
+color:red;
+}
+#table2{
+   border-collapse:collapse;
+   width:50%
+}
+#table2 th,td{
+ border-bottom:1px solid black;
+}
+#table2 th{
+  background-color:brown;
+}
+#table2 td{
+
+color:pink;
+}
+#form{
+background-color:pink;
+display:grid;
+width:50%;
+grid-template-columns:1fr 3ft;
+row-gap:20px;
+padding:20px;
+}
+input,select{
+padding:10px;
+border-radius:8px;
+
+}
+textarea{
+height:100px;
+}
+
+
+</style>
+</head>
+<body>
+<nav>
+<ul id="right">
+<li><a href="#"><img src="we.jpg" id="logo"></a></li>
+<li><a href="#">Home</a></li>
+<li><a href="#"> NEWS</a></li>
+<li><a href="#"> About</a></li>
+<li><a href="#"> Cantact us</a></li>
+
+</ul>
+<ul id="left">
+<li><a href="#">Login</a></li>
+<li><a href="#">sign up</a></li>
+
+
+</ul>
+
+</nav>
+<br><br>
+
+<div id="box1">
+<h2 id="first"> Hello I'm</h2>
+<h>manizabayo patrick</h1>
+<h3> a<span>prog</span>rammer</h3>
+<img src="image\1000000229.jpg">
+</div>
+<p>choose forite color</p>
+<a id="linkcolor"href="https://www.w3schools.com/colors/colors_picker.asp"target="blank">color picker</a>
+<div id="box2">
+<pre>un ordered list of my hobbies</pre>
+<ul>
+<li> MUSIC </li>
+<li> watching movies</li>
+<li> praying game</li>
+<li> dancing</li>
+
+
+</ul>
+<strong> my favorite food</strong>
+<ol> 
+<li> Meat</li>
+<li> rice</li>
+<li> patatoes</li>
+<li> white</li>
+
+</ol>
+
+</> visit MY LINK</>
+<ol id="linklist">
+
+<li> <a href="https://www.youtube.com/"target="blank">youtube</a></li>
+<li> <a href="https://www.w3schools.com/"target="blank">w3schools</a></li>
+<li><a href="https://www.google.com/"target="blank">google</a></li>
+<li><a href="https://www.w3schools.com/colors/colors_picker.asp"target="blank">color picker</a></li>
+
+
+
+</ol>
+
+</div>
+<br><br>
+<div id="box3">
+<center>
+<p> TABLE OF MY SKILLS</p>
+<table id="table1">
+<tr> 
+<th>skills</th>
+<th> LEVELS</th>
+</tr>
+<tr>
+<td> HTML</td>
+<td>  &starf;&starf;&starf;&star;&star;</td>
+</tr>
+<tr>
+<td> photograph</td>
+<td> &starf;&starf;&starf;&starf;&starf;</td>
+</tr>
+<tr>
+<td> c++</td>
+<td> &#9733&#9733&#9733&#9733&#9733</td>
+</tr>
+<tr>
+<td> biology</td>
+<td> &starf;&star;&star;&star;&star;</td>
+</tr>
+<tr>
+<td> HTML</td>
+<td> &starf;&starf;&starf;&star;&star;</td>
+</tr>
+
+</table>
+
+<p> TABLE OF BACKGROUND STUDY</p>
+<table id="table2">
+<tr> 
+<th>YEAR</th>
+<th>SCHOOLS</th>
+<th>NAME OF SCHOOLS</th>
+</tr>
+<tr>
+<td> 210-2016</td>
+<td> PRIMARY LEVEL</td>
+<td> G.S kareba</td>
+</tr>
+<tr>
+<td> 2017-2019</td>
+<td> O'LEVEL</td>
+<td> G.S SCOLAIRE MARIE REINE RWAZA</td>
+</tr>
+<tr>
+<td> 2019-2023</td>
+<td> ADVANCED LEVEL</td>
+<td> G.S marie merci kibeho</td>
+</tr>
+<tr>
+<td> 2024</td>
+<td> UNIVERSITY</td>
+<td> inesi ruhengeri</td>
+</tr>
+
+</table>
+</center>
+
+
+</div>
+
+<div id="form">
+<label> first name</label>
+<input type="text" name="fname" placeholder="your first name">
+<label> second name</label>
+<input type="text"name="sname"placeholder="your second name">
+<label>Country</label>
+<select>
+		<option> KENYA</option>
+		<option> TANZANIA</option>
+		<option> UGANDA</option>
+		<option> MALAWI</option>
+		<option> RWANDA</option>
+		<option> NIGERIA</option>
+		<option> ETHIOPIA</option>
+
+
+</select>
+<label>comment:</label><br>
+<textarea name="Message"placeholder="write something"></textarea>
+
+</div>
+
+
+
+</body>
+
+
+</html>
